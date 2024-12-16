@@ -1,0 +1,58 @@
+.container {
+    background-color: lightgray;
+}
+
+.test-1 {
+    width: 300px;
+    height: 150px;
+    background-color: lightcoral;
+    transition-property: width;
+    transition-duration: 2s;
+    /* transition: width 2s; */
+}
+
+.test-1:hover {
+    width: 500px;
+}
+
+.test-2 {
+    width: 300px;
+    height: 150px;
+    background-color: lightcoral;
+    transition-duration: width 2s, height 2s ;
+}
+
+.test-2:hover {
+    width: 500px;
+    height: 300px;
+}
+
+.test-3 {
+    width: 300px;
+    height: 150px;
+    background-color: lightcoral;
+    transition-duration: width 2s, height 2s ;
+    transition-delay: 2s;
+}
+
+.test-3:hover {
+    width: 500px;
+    height: 300px;
+}
+
+.test-container:hover .test-4 {
+    width: 500px;
+}
+
+.test-4 {
+    width: 150px;
+    height: 100px;
+    padding: 1rem;
+    background-color: lightcoral;
+    transition: width 2s;
+}
+
+.ease-in {
+    background-color: limegreen;
+    transition-timing-function: ease-in ;
+}

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+body {
+    background-color: #1f1e1e;
+    font-family: "Wallpoet", sans-serif;
+    margin: 0;
+}
+
+body > header{
+    background-color: black;
+}
+
+body > header a {
+    background: none;
+    color: #751375;
+}
+
+body > header a:hover {
+}
+
+
+h1 {
+    font-family: "Wallpoet", sans-serif;
+    font-size: 60px;
+    color: #751375;
+    text-transform: uppercase;    
+
+}
+
+h2, h3 {
+    color: #751375;
+}
+
+h3 {   
+    margin: 0;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: whitesmoke;
+    font-family: "Roboto Slab", serif;
+}
+
+p em {
+    font-weight: bold; 
+}
+
+mark {
+ background-color: #751375 ;
+ padding: 6px 12px;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    background-color: #1f1e1e;
+    max-width: 650px;
+    margin: 50px auto;
+}
+
+main > header {
+    text-align: center;
+}
+
+
+ .test-spaziato {
+    letter-spacing: 5px;
+}
+
+ul{
+ color: #751375;
+ line-height: 30px;
+ font-family: "Roboto Slab", serif;
+ list-style-position: inside;
+}
+
+ul + li {    
+    padding: 10px;
+} 
+
+ li > span {
+    color: grey;
+}
+
+a {
+    background-color: #751375;
+    padding: 8px 15px;
+    color: white;
+}
+
+a:hover {
+    background-color: #1a021a;
+}
+
+li::marker {
+    color: white;
+    content: "\26F0\2002";
+}
+
+#my-birthday {
+    background-color: gold;
+    color: black;
+    padding: 6px 10px;
+    font-size: 18px;
+}
+
+
+#my-birthday > span {
+    color: grey;
+    font-weight: bold;
+}
+
+.prenotazione {
+    background-color: #3f083f;
+}
+
+.prenotazione > p:first-child {
+    background-color: black;
+    letter-spacing: 6px;
+    word-spacing: 20px;
+    font-family: "Wallpoet", sans-serif;;
+}
+
+
+section {
+    background-color: #1a021a;
+    color: white;
+    padding: 25px;
+    margin: 40px;
+
+}
+
+
+.quote {
+    border-radius: 25px 0 25px 0;
+}
+
+blockquote p  {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border-left: 5px solid #751375 ;    
+}
+
+.prenotazione > p {
+    padding: 20px 25px;
+}
+
+figcaption {
+    text-align: right;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family:  'Roboto Slab", serif' ;
+    text-align: right;
+    font-variant: small-caps;
+    padding: 15px;
+}
+
+address {
+    color: #751375;
+}
+
+
+.citazione::before {
+    content: "\201C";
+    font-size: 30px;
+}
+
+.citazione::after {
+    content: "\201C";
+}

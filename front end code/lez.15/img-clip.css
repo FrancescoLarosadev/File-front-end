@@ -1,0 +1,8 @@
+img {
+    width: 50%;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+    transition: rotate(180deg);
+}

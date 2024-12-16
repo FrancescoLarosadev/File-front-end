@@ -1,0 +1,61 @@
+.test-anchor a {
+    background-color: wheat;
+    padding:10px 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+section > div  {
+background-color: #979292;
+width: 25%;
+margin: 10px 0;
+display: inline-block;
+}
+
+section > div:nth-child(2) {
+    background-color: aquamarine;
+    width: 50%;
+}
+
+h2 {
+    visibility: none;
+}
+
+
+.overflow {
+    background-color: lawngreen;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    
+}
+
+.colored {
+    background-color: rebeccapurple;
+    width: 200px;
+}
+
+.relative {
+    background-color: blue;
+    width: 200px;
+    position: relative;
+}
+
+.fixed {
+    background-color: chocolate;
+    position: fixed;
+    top: 0;
+}
+
+.absolute {
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sticky {
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+}

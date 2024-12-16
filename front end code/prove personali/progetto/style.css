@@ -1,0 +1,139 @@
+html, header ,body ,h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p ,ul ,li {
+    margin: 0;
+}
+div {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: "Afacad Flux", sans-serif;
+    margin-bottom: 5px;
+}
+
+body > h4 {
+    font-family: "Afacad Flux", sans-serif;
+    margin-top: 0;
+    color: #535151;
+}
+
+input {
+    margin-top: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #c2c0c0 ;
+    color: #535151;
+}
+
+#articles {
+}
+
+article{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid white ;
+    color: white;
+}
+
+#Interstellar {
+    background-image: url(img/interstellar.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 600px;
+}
+
+#Inception {
+    background-image: url(img/Inception.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left:  500px;
+}
+
+#Shawshank {
+    background-image: url(img/Shawshank.jpg);
+    background-size: cover;
+    margin-right: 300px;
+}
+
+article p {
+    margin: 30px;
+}
+
+article h1 {
+    margin-top: 20px ;
+    margin-left: 30px;
+}
+
+article h4 {
+    margin-left: 30px;
+    margin: 0 30px 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    padding: 10px 0px 10px 0;
+}
+
+.info h3 {
+    padding-bottom: 8px;
+    margin-left: 10px;
+    color: #c0bcbc;
+}
+
+.info i {
+    position: relative;
+    left: 95px;
+    bottom: 27px;
+    color: #c0bcbc;
+
+}
+
+.info p {
+    padding: 2px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: #c0bcbc;
+}
+
+.link {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: space-evenly;
+    color: #c0bcbc ;
+}
+
+.link a {
+    color: #c0bcbc;
+    text-decoration: none;
+    
+}
+
+.copy {
+    display: flex;
+    align-items: end;
+    margin-right: 8px;
+    font-size: 15px;
+    color: #c0bcbc;
+}

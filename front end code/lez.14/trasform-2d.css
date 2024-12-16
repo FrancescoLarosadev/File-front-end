@@ -1,0 +1,39 @@
+.container  {
+    background-color: limegreen;
+}
+
+.container > div {
+    background-color: lightpink;
+    width: 400px;
+    height: 150px;
+}
+
+.translate {
+    background-color: aquamarine;
+    width: 200px;
+    height: 150px;
+
+    transform: translate(100px , 50px);
+}
+
+.rotate {
+    transform: rotate(40deg);
+}
+
+.scale {
+    transform: scale(1);
+}
+
+.scale:hover {
+    transform: scale(2);
+}
+
+.skew {
+    transform: skew(20deg);
+}
+
+
+/* 3D */
+.rotate-x {
+    transform: rotateX(20deg);
+}

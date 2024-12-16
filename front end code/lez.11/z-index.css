@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+}
+
+.gray {
+    background-color: gray;
+    padding: 50px;
+    width: 200px;
+}
+
+.red {
+    position: absolute;
+    background-color: red ;
+    padding: 50px;
+    top: 70px;
+    width: 200px;
+    z-index: 3;
+}
+
+.green {
+    position: relative;
+    background-color: green;
+    padding: 100px 50px;
+    top: -30px;
+    width: 200px;
+}
