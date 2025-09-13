@@ -1,0 +1,27 @@
+html {
+    background-color: #EBDC88;
+}
+.start {
+        display:flex;
+        justify-content:center;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+}
+
+.start > nav {
+    padding: 10px 0 10px 0;
+}
+
+a {
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: ;
+    padding: 0 7px 0 7px;
+    font-size: 30px;
+
+}
